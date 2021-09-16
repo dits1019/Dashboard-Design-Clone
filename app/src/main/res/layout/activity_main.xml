@@ -201,6 +201,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/textRecommended" />
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        app:layout_goneMarginBottom="@dimen/_24sdp"
+        android:paddingStart="@dimen/_50sdp"
+        android:paddingEnd="@dimen/_50sdp"
+        app:layout_constraintBottom_toTopOf="@id/textRecommended"
+        app:layout_constraintTop_toBottomOf="@id/layoutSearch" />
+
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/smoothBottomBar"
         android:layout_width="match_parent"
